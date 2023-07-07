@@ -1,16 +1,15 @@
 #!/usr/bin/python3
 
-
-def canUnlockAll(boxes):
-    """
+"""
     Determines if all boxes can be opened.
 
-    Args:
-        boxes (list): A list of lists representing the boxes.
+    Args: boxes (list): A list of lists representing the boxes.
 
-    Returns:
-        bool: True if all boxes can be opened, False otherwise.
-    """
+    Returns: bool: True if all boxes can be opened, False otherwise.
+"""
+
+def canUnlockAll(boxes):
+    
     if len(boxes) == 0:
         return False
 
@@ -26,4 +25,5 @@ def canUnlockAll(boxes):
                 keys.append(key)
 
     return all(visited)
+
 
