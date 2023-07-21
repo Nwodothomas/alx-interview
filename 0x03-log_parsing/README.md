@@ -1,4 +1,4 @@
-Solution to the Task for 0x03. Log Parsing
+# Solution to the Task for 0x03. Log Parsing
 # Log Parsing Script - README
 
 This repository contains a Python script that reads logs in a specific format from standard input (stdin) and computes metrics based on the input.
